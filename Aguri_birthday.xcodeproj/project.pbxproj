@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		35D52E42285F6307651DF40F /* Pods_Aguri_birthdayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE7574A294E90F7B7F7B022 /* Pods_Aguri_birthdayTests.framework */; };
+		399795541DE6124E0029DE4A /* QuestionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399795531DE6124E0029DE4A /* QuestionViewController.storyboard */; };
+		399795561DE6133D0029DE4A /* PieceViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 399795551DE6133D0029DE4A /* PieceViewController.storyboard */; };
+		399795581DE613F40029DE4A /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399795571DE613F40029DE4A /* StoryboardInstantiable.swift */; };
 		6932D194EC38B852C61BC446 /* Pods_Aguri_birthday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE2883F23DD930039D72721 /* Pods_Aguri_birthday.framework */; };
 		70F37D3F3C4EB19E87D4A6FF /* Pods_Aguri_birthdayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B474503DD8FE4E06CCD36D2 /* Pods_Aguri_birthdayUITests.framework */; };
 		82C7ED951DE5784900912110 /* question1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82C7ED8C1DE5784900912110 /* question1.jpeg */; };
@@ -68,6 +71,9 @@
 		0BE7574A294E90F7B7F7B022 /* Pods_Aguri_birthdayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aguri_birthdayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		124C2DB2550DE09BF623A4F7 /* Pods-Aguri_birthdayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aguri_birthdayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aguri_birthdayTests/Pods-Aguri_birthdayTests.release.xcconfig"; sourceTree = "<group>"; };
 		130FB75B2B040B47129F1293 /* Pods-Aguri_birthdayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aguri_birthdayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aguri_birthdayTests/Pods-Aguri_birthdayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		399795531DE6124E0029DE4A /* QuestionViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QuestionViewController.storyboard; sourceTree = "<group>"; };
+		399795551DE6133D0029DE4A /* PieceViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PieceViewController.storyboard; sourceTree = "<group>"; };
+		399795571DE613F40029DE4A /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
 		3BE2883F23DD930039D72721 /* Pods_Aguri_birthday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aguri_birthday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		550EF6E8ACFD267221856602 /* Pods-Aguri_birthdayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aguri_birthdayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aguri_birthdayUITests/Pods-Aguri_birthdayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DEE5E462A73334A9C09947C /* Pods-Aguri_birthdayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aguri_birthdayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aguri_birthdayUITests/Pods-Aguri_birthdayUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -180,6 +186,9 @@
 				9A6920261DE08839008AC69C /* LaunchScreen.storyboard */,
 				9A69206E1DE1FD32008AC69C /* GoogleService-Info.plist */,
 				9A6920291DE08839008AC69C /* Info.plist */,
+				399795531DE6124E0029DE4A /* QuestionViewController.storyboard */,
+				399795551DE6133D0029DE4A /* PieceViewController.storyboard */,
+				399795571DE613F40029DE4A /* StoryboardInstantiable.swift */,
 			);
 			path = Aguri_birthday;
 			sourceTree = "<group>";
@@ -417,6 +426,8 @@
 				9A6920671DE1D5B9008AC69C /* piece8.png in Resources */,
 				82C7EDA11DE5911300912110 /* sea.jpg in Resources */,
 				9A6920661DE1D5B9008AC69C /* piece7.png in Resources */,
+				399795561DE6133D0029DE4A /* PieceViewController.storyboard in Resources */,
+				399795541DE6124E0029DE4A /* QuestionViewController.storyboard in Resources */,
 				9A69206F1DE1FD32008AC69C /* GoogleService-Info.plist in Resources */,
 				82C7ED9C1DE5784900912110 /* question8.jpeg in Resources */,
 				9A6920251DE08839008AC69C /* Assets.xcassets in Resources */,
@@ -717,6 +728,7 @@
 			files = (
 				9A6920201DE08839008AC69C /* ViewController.swift in Sources */,
 				9A6920521DE1C85A008AC69C /* PieceViewController.swift in Sources */,
+				399795581DE613F40029DE4A /* StoryboardInstantiable.swift in Sources */,
 				9A69201E1DE08839008AC69C /* AppDelegate.swift in Sources */,
 				9A6920501DE1C482008AC69C /* QuestionViewController.swift in Sources */,
 			);
