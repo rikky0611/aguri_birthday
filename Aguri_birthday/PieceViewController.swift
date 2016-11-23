@@ -33,10 +33,14 @@ class PieceViewController: UIViewController {
     }
     
     @IBAction func didTapTopButton() {
-        performSegue(withIdentifier: "toTop", sender: self)
+        self.present(ViewController.instantiate(), animated: true, completion: nil)
     }
+}
+
+extension PieceViewController: StoryboardInstantiable {
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    static var storyboardName: String {
+        
+        return String(describing: self)
     }
 }

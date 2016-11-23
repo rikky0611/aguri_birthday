@@ -77,20 +77,12 @@ class ViewController: UIViewController {
         answer = answerArray[tag-1]
         index = tag
         performSegue(withIdentifier: "toQuestion", sender: self)
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let questionViewController = segue.destination as! QuestionViewController
+        let questionViewController = QuestionViewController.instantiate()
         questionViewController.answer = self.answer
         questionViewController.index = self.index
         print(self.answer, self.index)
+        self.present(questionViewController, animated: true, completion: nil)
     }
-    
 }
 
 
@@ -166,5 +158,14 @@ extension ViewController {
                     "手紙",
                     "ずかん",
                     "127,700"]
+    }
+}
+
+
+extension ViewController: StoryboardInstantiable {
+    
+    static var storyboardName: String {
+        
+        return String(describing: self)
     }
 }
