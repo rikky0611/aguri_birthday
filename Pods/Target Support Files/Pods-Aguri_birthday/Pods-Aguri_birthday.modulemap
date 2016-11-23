@@ -1,0 +1,6 @@
+framework module Pods_Aguri_birthday {
+  umbrella header "Pods-Aguri_birthday-umbrella.h"
+
+  export *
+  module * { export * }
+}

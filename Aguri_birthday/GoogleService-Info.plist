@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>384234916660-p0fth2o6abtgng0rorudc7hvllp3f37k.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.384234916660-p0fth2o6abtgng0rorudc7hvllp3f37k</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDhcdk1_Eem3OME9nJRt8bqMukPi4xfDao</string>
+	<key>GCM_SENDER_ID</key>
+	<string>384234916660</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>rikky0611.Aguri-birthday</string>
+	<key>PROJECT_ID</key>
+	<string>aguri-34daf</string>
+	<key>STORAGE_BUCKET</key>
+	<string>aguri-34daf.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:384234916660:ios:6cdf893d5b0c3be1</string>
+	<key>DATABASE_URL</key>
+	<string>https://aguri-34daf.firebaseio.com</string>
+</dict>
+</plist>

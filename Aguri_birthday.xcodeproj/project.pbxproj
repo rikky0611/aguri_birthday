@@ -1,0 +1,997 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35D52E42285F6307651DF40F /* Pods_Aguri_birthdayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE7574A294E90F7B7F7B022 /* Pods_Aguri_birthdayTests.framework */; };
+		6932D194EC38B852C61BC446 /* Pods_Aguri_birthday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BE2883F23DD930039D72721 /* Pods_Aguri_birthday.framework */; };
+		70F37D3F3C4EB19E87D4A6FF /* Pods_Aguri_birthdayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B474503DD8FE4E06CCD36D2 /* Pods_Aguri_birthdayUITests.framework */; };
+		82C7ED951DE5784900912110 /* question1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82C7ED8C1DE5784900912110 /* question1.jpeg */; };
+		82C7ED961DE5784900912110 /* question2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82C7ED8D1DE5784900912110 /* question2.jpeg */; };
+		82C7ED971DE5784900912110 /* question3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82C7ED8E1DE5784900912110 /* question3.jpeg */; };
+		82C7ED981DE5784900912110 /* question4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82C7ED8F1DE5784900912110 /* question4.jpeg */; };
+		82C7ED991DE5784900912110 /* question5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82C7ED901DE5784900912110 /* question5.jpeg */; };
+		82C7ED9A1DE5784900912110 /* question6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82C7ED911DE5784900912110 /* question6.jpeg */; };
+		82C7ED9B1DE5784900912110 /* question7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82C7ED921DE5784900912110 /* question7.jpeg */; };
+		82C7ED9C1DE5784900912110 /* question8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82C7ED931DE5784900912110 /* question8.jpeg */; };
+		82C7ED9D1DE5784900912110 /* question9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82C7ED941DE5784900912110 /* question9.jpeg */; };
+		82C7ED9F1DE590A300912110 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 82C7ED9E1DE590A300912110 /* logo.png */; };
+		82C7EDA11DE5911300912110 /* sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82C7EDA01DE5911300912110 /* sea.jpg */; };
+		82C7EDA31DE5915700912110 /* sea2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82C7EDA21DE5915700912110 /* sea2.jpeg */; };
+		9A69201E1DE08839008AC69C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A69201D1DE08839008AC69C /* AppDelegate.swift */; };
+		9A6920201DE08839008AC69C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A69201F1DE08839008AC69C /* ViewController.swift */; };
+		9A6920231DE08839008AC69C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6920211DE08839008AC69C /* Main.storyboard */; };
+		9A6920251DE08839008AC69C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A6920241DE08839008AC69C /* Assets.xcassets */; };
+		9A6920281DE08839008AC69C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6920261DE08839008AC69C /* LaunchScreen.storyboard */; };
+		9A6920331DE08839008AC69C /* Aguri_birthdayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6920321DE08839008AC69C /* Aguri_birthdayTests.swift */; };
+		9A69203E1DE08839008AC69C /* Aguri_birthdayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A69203D1DE08839008AC69C /* Aguri_birthdayUITests.swift */; };
+		9A6920501DE1C482008AC69C /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A69204F1DE1C482008AC69C /* QuestionViewController.swift */; };
+		9A6920521DE1C85A008AC69C /* PieceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6920511DE1C85A008AC69C /* PieceViewController.swift */; };
+		9A6920561DE1D028008AC69C /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A6920551DE1D028008AC69C /* background.png */; };
+		9A6920601DE1D5B9008AC69C /* piece1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A6920571DE1D5B9008AC69C /* piece1.png */; };
+		9A6920611DE1D5B9008AC69C /* piece2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A6920581DE1D5B9008AC69C /* piece2.png */; };
+		9A6920621DE1D5B9008AC69C /* piece3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A6920591DE1D5B9008AC69C /* piece3.png */; };
+		9A6920631DE1D5B9008AC69C /* piece4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A69205A1DE1D5B9008AC69C /* piece4.png */; };
+		9A6920641DE1D5B9008AC69C /* piece5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A69205B1DE1D5B9008AC69C /* piece5.png */; };
+		9A6920651DE1D5B9008AC69C /* piece6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A69205C1DE1D5B9008AC69C /* piece6.png */; };
+		9A6920661DE1D5B9008AC69C /* piece7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A69205D1DE1D5B9008AC69C /* piece7.png */; };
+		9A6920671DE1D5B9008AC69C /* piece8.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A69205E1DE1D5B9008AC69C /* piece8.png */; };
+		9A6920681DE1D5B9008AC69C /* piece9.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A69205F1DE1D5B9008AC69C /* piece9.png */; };
+		9A69206D1DE1DCE9008AC69C /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A69206C1DE1DCE9008AC69C /* lock.png */; };
+		9A69206F1DE1FD32008AC69C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A69206E1DE1FD32008AC69C /* GoogleService-Info.plist */; };
+		9AF084F21DE4B298008C3560 /* unlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF084F11DE4B298008C3560 /* unlock.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A69202F1DE08839008AC69C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A6920121DE08839008AC69C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6920191DE08839008AC69C;
+			remoteInfo = Aguri_birthday;
+		};
+		9A69203A1DE08839008AC69C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A6920121DE08839008AC69C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A6920191DE08839008AC69C;
+			remoteInfo = Aguri_birthday;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B474503DD8FE4E06CCD36D2 /* Pods_Aguri_birthdayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aguri_birthdayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE7574A294E90F7B7F7B022 /* Pods_Aguri_birthdayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aguri_birthdayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		124C2DB2550DE09BF623A4F7 /* Pods-Aguri_birthdayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aguri_birthdayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aguri_birthdayTests/Pods-Aguri_birthdayTests.release.xcconfig"; sourceTree = "<group>"; };
+		130FB75B2B040B47129F1293 /* Pods-Aguri_birthdayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aguri_birthdayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aguri_birthdayTests/Pods-Aguri_birthdayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BE2883F23DD930039D72721 /* Pods_Aguri_birthday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aguri_birthday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		550EF6E8ACFD267221856602 /* Pods-Aguri_birthdayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aguri_birthdayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aguri_birthdayUITests/Pods-Aguri_birthdayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DEE5E462A73334A9C09947C /* Pods-Aguri_birthdayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aguri_birthdayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aguri_birthdayUITests/Pods-Aguri_birthdayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82C7ED8C1DE5784900912110 /* question1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question1.jpeg; sourceTree = "<group>"; };
+		82C7ED8D1DE5784900912110 /* question2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question2.jpeg; sourceTree = "<group>"; };
+		82C7ED8E1DE5784900912110 /* question3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question3.jpeg; sourceTree = "<group>"; };
+		82C7ED8F1DE5784900912110 /* question4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question4.jpeg; sourceTree = "<group>"; };
+		82C7ED901DE5784900912110 /* question5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question5.jpeg; sourceTree = "<group>"; };
+		82C7ED911DE5784900912110 /* question6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question6.jpeg; sourceTree = "<group>"; };
+		82C7ED921DE5784900912110 /* question7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question7.jpeg; sourceTree = "<group>"; };
+		82C7ED931DE5784900912110 /* question8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question8.jpeg; sourceTree = "<group>"; };
+		82C7ED941DE5784900912110 /* question9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = question9.jpeg; sourceTree = "<group>"; };
+		82C7ED9E1DE590A300912110 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		82C7EDA01DE5911300912110 /* sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea.jpg; sourceTree = "<group>"; };
+		82C7EDA21DE5915700912110 /* sea2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sea2.jpeg; sourceTree = "<group>"; };
+		9A69201A1DE08839008AC69C /* Aguri_birthday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aguri_birthday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A69201D1DE08839008AC69C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A69201F1DE08839008AC69C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A6920221DE08839008AC69C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A6920241DE08839008AC69C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A6920271DE08839008AC69C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A6920291DE08839008AC69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A69202E1DE08839008AC69C /* Aguri_birthdayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aguri_birthdayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6920321DE08839008AC69C /* Aguri_birthdayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aguri_birthdayTests.swift; sourceTree = "<group>"; };
+		9A6920341DE08839008AC69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6920391DE08839008AC69C /* Aguri_birthdayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Aguri_birthdayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A69203D1DE08839008AC69C /* Aguri_birthdayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aguri_birthdayUITests.swift; sourceTree = "<group>"; };
+		9A69203F1DE08839008AC69C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A69204F1DE1C482008AC69C /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		9A6920511DE1C85A008AC69C /* PieceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieceViewController.swift; sourceTree = "<group>"; };
+		9A6920551DE1D028008AC69C /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		9A6920571DE1D5B9008AC69C /* piece1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piece1.png; sourceTree = "<group>"; };
+		9A6920581DE1D5B9008AC69C /* piece2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piece2.png; sourceTree = "<group>"; };
+		9A6920591DE1D5B9008AC69C /* piece3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piece3.png; sourceTree = "<group>"; };
+		9A69205A1DE1D5B9008AC69C /* piece4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piece4.png; sourceTree = "<group>"; };
+		9A69205B1DE1D5B9008AC69C /* piece5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piece5.png; sourceTree = "<group>"; };
+		9A69205C1DE1D5B9008AC69C /* piece6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piece6.png; sourceTree = "<group>"; };
+		9A69205D1DE1D5B9008AC69C /* piece7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piece7.png; sourceTree = "<group>"; };
+		9A69205E1DE1D5B9008AC69C /* piece8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piece8.png; sourceTree = "<group>"; };
+		9A69205F1DE1D5B9008AC69C /* piece9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piece9.png; sourceTree = "<group>"; };
+		9A69206C1DE1DCE9008AC69C /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
+		9A69206E1DE1FD32008AC69C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9A6920701DE40C90008AC69C /* Aguri_birthday.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aguri_birthday.entitlements; sourceTree = "<group>"; };
+		9AF00505C5EC8CBAE8FF116D /* Pods-Aguri_birthday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aguri_birthday.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aguri_birthday/Pods-Aguri_birthday.release.xcconfig"; sourceTree = "<group>"; };
+		9AF084F11DE4B298008C3560 /* unlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unlock.png; sourceTree = "<group>"; };
+		D5C0CA09232D165948433EBD /* Pods-Aguri_birthday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aguri_birthday.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aguri_birthday/Pods-Aguri_birthday.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A6920171DE08839008AC69C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6932D194EC38B852C61BC446 /* Pods_Aguri_birthday.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A69202B1DE08839008AC69C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D52E42285F6307651DF40F /* Pods_Aguri_birthdayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6920361DE08839008AC69C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F37D3F3C4EB19E87D4A6FF /* Pods_Aguri_birthdayUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A6920111DE08839008AC69C = {
+			isa = PBXGroup;
+			children = (
+				9A69201C1DE08839008AC69C /* Aguri_birthday */,
+				9A6920311DE08839008AC69C /* Aguri_birthdayTests */,
+				9A69203C1DE08839008AC69C /* Aguri_birthdayUITests */,
+				9A69201B1DE08839008AC69C /* Products */,
+				E11A030E7EA254C52EF71183 /* Pods */,
+				F9BA51E9284A82E49A1781F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A69201B1DE08839008AC69C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A69201A1DE08839008AC69C /* Aguri_birthday.app */,
+				9A69202E1DE08839008AC69C /* Aguri_birthdayTests.xctest */,
+				9A6920391DE08839008AC69C /* Aguri_birthdayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A69201C1DE08839008AC69C /* Aguri_birthday */ = {
+			isa = PBXGroup;
+			children = (
+				9A6920701DE40C90008AC69C /* Aguri_birthday.entitlements */,
+				9A6920691DE1D5BE008AC69C /* Resources */,
+				9A69201D1DE08839008AC69C /* AppDelegate.swift */,
+				9A69201F1DE08839008AC69C /* ViewController.swift */,
+				9A69204F1DE1C482008AC69C /* QuestionViewController.swift */,
+				9A6920511DE1C85A008AC69C /* PieceViewController.swift */,
+				9A6920211DE08839008AC69C /* Main.storyboard */,
+				9A6920241DE08839008AC69C /* Assets.xcassets */,
+				9A6920261DE08839008AC69C /* LaunchScreen.storyboard */,
+				9A69206E1DE1FD32008AC69C /* GoogleService-Info.plist */,
+				9A6920291DE08839008AC69C /* Info.plist */,
+			);
+			path = Aguri_birthday;
+			sourceTree = "<group>";
+		};
+		9A6920311DE08839008AC69C /* Aguri_birthdayTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A6920321DE08839008AC69C /* Aguri_birthdayTests.swift */,
+				9A6920341DE08839008AC69C /* Info.plist */,
+			);
+			path = Aguri_birthdayTests;
+			sourceTree = "<group>";
+		};
+		9A69203C1DE08839008AC69C /* Aguri_birthdayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A69203D1DE08839008AC69C /* Aguri_birthdayUITests.swift */,
+				9A69203F1DE08839008AC69C /* Info.plist */,
+			);
+			path = Aguri_birthdayUITests;
+			sourceTree = "<group>";
+		};
+		9A6920691DE1D5BE008AC69C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82C7EDA01DE5911300912110 /* sea.jpg */,
+				82C7EDA21DE5915700912110 /* sea2.jpeg */,
+				82C7ED9E1DE590A300912110 /* logo.png */,
+				9AF084F11DE4B298008C3560 /* unlock.png */,
+				9A6920551DE1D028008AC69C /* background.png */,
+				9A69206C1DE1DCE9008AC69C /* lock.png */,
+				9A69206B1DE1D5FF008AC69C /* Question */,
+				9A69206A1DE1D5CF008AC69C /* Piece */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9A69206A1DE1D5CF008AC69C /* Piece */ = {
+			isa = PBXGroup;
+			children = (
+				9A6920571DE1D5B9008AC69C /* piece1.png */,
+				9A6920581DE1D5B9008AC69C /* piece2.png */,
+				9A6920591DE1D5B9008AC69C /* piece3.png */,
+				9A69205A1DE1D5B9008AC69C /* piece4.png */,
+				9A69205B1DE1D5B9008AC69C /* piece5.png */,
+				9A69205C1DE1D5B9008AC69C /* piece6.png */,
+				9A69205D1DE1D5B9008AC69C /* piece7.png */,
+				9A69205E1DE1D5B9008AC69C /* piece8.png */,
+				9A69205F1DE1D5B9008AC69C /* piece9.png */,
+			);
+			name = Piece;
+			sourceTree = "<group>";
+		};
+		9A69206B1DE1D5FF008AC69C /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				82C7ED8C1DE5784900912110 /* question1.jpeg */,
+				82C7ED8D1DE5784900912110 /* question2.jpeg */,
+				82C7ED8E1DE5784900912110 /* question3.jpeg */,
+				82C7ED8F1DE5784900912110 /* question4.jpeg */,
+				82C7ED901DE5784900912110 /* question5.jpeg */,
+				82C7ED911DE5784900912110 /* question6.jpeg */,
+				82C7ED921DE5784900912110 /* question7.jpeg */,
+				82C7ED931DE5784900912110 /* question8.jpeg */,
+				82C7ED941DE5784900912110 /* question9.jpeg */,
+			);
+			name = Question;
+			sourceTree = "<group>";
+		};
+		E11A030E7EA254C52EF71183 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5C0CA09232D165948433EBD /* Pods-Aguri_birthday.debug.xcconfig */,
+				9AF00505C5EC8CBAE8FF116D /* Pods-Aguri_birthday.release.xcconfig */,
+				130FB75B2B040B47129F1293 /* Pods-Aguri_birthdayTests.debug.xcconfig */,
+				124C2DB2550DE09BF623A4F7 /* Pods-Aguri_birthdayTests.release.xcconfig */,
+				550EF6E8ACFD267221856602 /* Pods-Aguri_birthdayUITests.debug.xcconfig */,
+				6DEE5E462A73334A9C09947C /* Pods-Aguri_birthdayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9BA51E9284A82E49A1781F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BE2883F23DD930039D72721 /* Pods_Aguri_birthday.framework */,
+				0BE7574A294E90F7B7F7B022 /* Pods_Aguri_birthdayTests.framework */,
+				0B474503DD8FE4E06CCD36D2 /* Pods_Aguri_birthdayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A6920191DE08839008AC69C /* Aguri_birthday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6920421DE08839008AC69C /* Build configuration list for PBXNativeTarget "Aguri_birthday" */;
+			buildPhases = (
+				14CA0EAB566D080C45B3898D /* 📦 Check Pods Manifest.lock */,
+				85030389ED511259747B77DB /* [CP] Check Pods Manifest.lock */,
+				9A6920161DE08839008AC69C /* Sources */,
+				9A6920171DE08839008AC69C /* Frameworks */,
+				9A6920181DE08839008AC69C /* Resources */,
+				9BDDC306635B6EADA84E4217 /* [CP] Embed Pods Frameworks */,
+				ABC3179A6EFFAD959C0C3090 /* [CP] Copy Pods Resources */,
+				D09BC889E1C4D9651C50BF53 /* 📦 Embed Pods Frameworks */,
+				B415E2BA2EBE2D1C35BA63C0 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aguri_birthday;
+			productName = Aguri_birthday;
+			productReference = 9A69201A1DE08839008AC69C /* Aguri_birthday.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A69202D1DE08839008AC69C /* Aguri_birthdayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6920451DE08839008AC69C /* Build configuration list for PBXNativeTarget "Aguri_birthdayTests" */;
+			buildPhases = (
+				E5CEE9BD3D25C3E66FFD2446 /* 📦 Check Pods Manifest.lock */,
+				D5044CFBC4216AE5839D15EB /* [CP] Check Pods Manifest.lock */,
+				9A69202A1DE08839008AC69C /* Sources */,
+				9A69202B1DE08839008AC69C /* Frameworks */,
+				9A69202C1DE08839008AC69C /* Resources */,
+				B82B09D1E298E9E50DC9B979 /* [CP] Embed Pods Frameworks */,
+				91C8026EBC29411EDF8F74DB /* [CP] Copy Pods Resources */,
+				BCD543F67F9F22F3DEF4F76B /* 📦 Embed Pods Frameworks */,
+				52F82211387D5DD697B6A895 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A6920301DE08839008AC69C /* PBXTargetDependency */,
+			);
+			name = Aguri_birthdayTests;
+			productName = Aguri_birthdayTests;
+			productReference = 9A69202E1DE08839008AC69C /* Aguri_birthdayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A6920381DE08839008AC69C /* Aguri_birthdayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6920481DE08839008AC69C /* Build configuration list for PBXNativeTarget "Aguri_birthdayUITests" */;
+			buildPhases = (
+				6001978518DFBFFED13BEFD0 /* 📦 Check Pods Manifest.lock */,
+				D5A47ABD50E8D15D58A2D1F6 /* [CP] Check Pods Manifest.lock */,
+				9A6920351DE08839008AC69C /* Sources */,
+				9A6920361DE08839008AC69C /* Frameworks */,
+				9A6920371DE08839008AC69C /* Resources */,
+				A708F69FDAEB2A0AB245E70C /* [CP] Embed Pods Frameworks */,
+				FAA8695B4CD2415159C90454 /* [CP] Copy Pods Resources */,
+				1F6F5CC9F596254E71A68B7A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A69203B1DE08839008AC69C /* PBXTargetDependency */,
+			);
+			name = Aguri_birthdayUITests;
+			productName = Aguri_birthdayUITests;
+			productReference = 9A6920391DE08839008AC69C /* Aguri_birthdayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A6920121DE08839008AC69C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Riku Arakawa";
+				TargetAttributes = {
+					9A6920191DE08839008AC69C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CWP9ZU9T8Z;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					9A69202D1DE08839008AC69C = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A6920191DE08839008AC69C;
+					};
+					9A6920381DE08839008AC69C = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A6920191DE08839008AC69C;
+					};
+				};
+			};
+			buildConfigurationList = 9A6920151DE08839008AC69C /* Build configuration list for PBXProject "Aguri_birthday" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A6920111DE08839008AC69C;
+			productRefGroup = 9A69201B1DE08839008AC69C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A6920191DE08839008AC69C /* Aguri_birthday */,
+				9A69202D1DE08839008AC69C /* Aguri_birthdayTests */,
+				9A6920381DE08839008AC69C /* Aguri_birthdayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A6920181DE08839008AC69C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6920641DE1D5B9008AC69C /* piece5.png in Resources */,
+				9A6920601DE1D5B9008AC69C /* piece1.png in Resources */,
+				82C7ED9B1DE5784900912110 /* question7.jpeg in Resources */,
+				9A6920281DE08839008AC69C /* LaunchScreen.storyboard in Resources */,
+				9A6920561DE1D028008AC69C /* background.png in Resources */,
+				82C7ED9F1DE590A300912110 /* logo.png in Resources */,
+				9A6920631DE1D5B9008AC69C /* piece4.png in Resources */,
+				9A6920651DE1D5B9008AC69C /* piece6.png in Resources */,
+				82C7EDA31DE5915700912110 /* sea2.jpeg in Resources */,
+				9A6920671DE1D5B9008AC69C /* piece8.png in Resources */,
+				82C7EDA11DE5911300912110 /* sea.jpg in Resources */,
+				9A6920661DE1D5B9008AC69C /* piece7.png in Resources */,
+				9A69206F1DE1FD32008AC69C /* GoogleService-Info.plist in Resources */,
+				82C7ED9C1DE5784900912110 /* question8.jpeg in Resources */,
+				9A6920251DE08839008AC69C /* Assets.xcassets in Resources */,
+				82C7ED981DE5784900912110 /* question4.jpeg in Resources */,
+				9A6920681DE1D5B9008AC69C /* piece9.png in Resources */,
+				82C7ED971DE5784900912110 /* question3.jpeg in Resources */,
+				9A69206D1DE1DCE9008AC69C /* lock.png in Resources */,
+				9AF084F21DE4B298008C3560 /* unlock.png in Resources */,
+				82C7ED951DE5784900912110 /* question1.jpeg in Resources */,
+				82C7ED9A1DE5784900912110 /* question6.jpeg in Resources */,
+				9A6920611DE1D5B9008AC69C /* piece2.png in Resources */,
+				82C7ED9D1DE5784900912110 /* question9.jpeg in Resources */,
+				9A6920621DE1D5B9008AC69C /* piece3.png in Resources */,
+				82C7ED961DE5784900912110 /* question2.jpeg in Resources */,
+				82C7ED991DE5784900912110 /* question5.jpeg in Resources */,
+				9A6920231DE08839008AC69C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A69202C1DE08839008AC69C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6920371DE08839008AC69C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14CA0EAB566D080C45B3898D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F6F5CC9F596254E71A68B7A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aguri_birthdayUITests/Pods-Aguri_birthdayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52F82211387D5DD697B6A895 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aguri_birthdayTests/Pods-Aguri_birthdayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6001978518DFBFFED13BEFD0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85030389ED511259747B77DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91C8026EBC29411EDF8F74DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aguri_birthdayTests/Pods-Aguri_birthdayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BDDC306635B6EADA84E4217 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aguri_birthday/Pods-Aguri_birthday-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A708F69FDAEB2A0AB245E70C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aguri_birthdayUITests/Pods-Aguri_birthdayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABC3179A6EFFAD959C0C3090 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aguri_birthday/Pods-Aguri_birthday-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B415E2BA2EBE2D1C35BA63C0 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aguri_birthday/Pods-Aguri_birthday-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B82B09D1E298E9E50DC9B979 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aguri_birthdayTests/Pods-Aguri_birthdayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD543F67F9F22F3DEF4F76B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aguri_birthdayTests/Pods-Aguri_birthdayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09BC889E1C4D9651C50BF53 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aguri_birthday/Pods-Aguri_birthday-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5044CFBC4216AE5839D15EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5A47ABD50E8D15D58A2D1F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5CEE9BD3D25C3E66FFD2446 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA8695B4CD2415159C90454 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aguri_birthdayUITests/Pods-Aguri_birthdayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A6920161DE08839008AC69C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6920201DE08839008AC69C /* ViewController.swift in Sources */,
+				9A6920521DE1C85A008AC69C /* PieceViewController.swift in Sources */,
+				9A69201E1DE08839008AC69C /* AppDelegate.swift in Sources */,
+				9A6920501DE1C482008AC69C /* QuestionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A69202A1DE08839008AC69C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6920331DE08839008AC69C /* Aguri_birthdayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6920351DE08839008AC69C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A69203E1DE08839008AC69C /* Aguri_birthdayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A6920301DE08839008AC69C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A6920191DE08839008AC69C /* Aguri_birthday */;
+			targetProxy = 9A69202F1DE08839008AC69C /* PBXContainerItemProxy */;
+		};
+		9A69203B1DE08839008AC69C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A6920191DE08839008AC69C /* Aguri_birthday */;
+			targetProxy = 9A69203A1DE08839008AC69C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A6920211DE08839008AC69C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A6920221DE08839008AC69C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A6920261DE08839008AC69C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A6920271DE08839008AC69C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A6920401DE08839008AC69C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A6920411DE08839008AC69C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A6920431DE08839008AC69C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C0CA09232D165948433EBD /* Pods-Aguri_birthday.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Aguri_birthday/Aguri_birthday.entitlements;
+				DEVELOPMENT_TEAM = CWP9ZU9T8Z;
+				INFOPLIST_FILE = Aguri_birthday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.Aguri-birthday";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9A6920441DE08839008AC69C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF00505C5EC8CBAE8FF116D /* Pods-Aguri_birthday.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Aguri_birthday/Aguri_birthday.entitlements;
+				DEVELOPMENT_TEAM = CWP9ZU9T8Z;
+				INFOPLIST_FILE = Aguri_birthday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.Aguri-birthday";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9A6920461DE08839008AC69C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130FB75B2B040B47129F1293 /* Pods-Aguri_birthdayTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Aguri_birthdayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.Aguri-birthdayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aguri_birthday.app/Aguri_birthday";
+			};
+			name = Debug;
+		};
+		9A6920471DE08839008AC69C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124C2DB2550DE09BF623A4F7 /* Pods-Aguri_birthdayTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Aguri_birthdayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.Aguri-birthdayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aguri_birthday.app/Aguri_birthday";
+			};
+			name = Release;
+		};
+		9A6920491DE08839008AC69C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 550EF6E8ACFD267221856602 /* Pods-Aguri_birthdayUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Aguri_birthdayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.Aguri-birthdayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Aguri_birthday;
+			};
+			name = Debug;
+		};
+		9A69204A1DE08839008AC69C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DEE5E462A73334A9C09947C /* Pods-Aguri_birthdayUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Aguri_birthdayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikky0611.Aguri-birthdayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Aguri_birthday;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A6920151DE08839008AC69C /* Build configuration list for PBXProject "Aguri_birthday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6920401DE08839008AC69C /* Debug */,
+				9A6920411DE08839008AC69C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6920421DE08839008AC69C /* Build configuration list for PBXNativeTarget "Aguri_birthday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6920431DE08839008AC69C /* Debug */,
+				9A6920441DE08839008AC69C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6920451DE08839008AC69C /* Build configuration list for PBXNativeTarget "Aguri_birthdayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6920461DE08839008AC69C /* Debug */,
+				9A6920471DE08839008AC69C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6920481DE08839008AC69C /* Build configuration list for PBXNativeTarget "Aguri_birthdayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6920491DE08839008AC69C /* Debug */,
+				9A69204A1DE08839008AC69C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A6920121DE08839008AC69C /* Project object */;
+}
