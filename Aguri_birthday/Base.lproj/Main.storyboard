@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -104,118 +104,15 @@
                         <outlet property="button8" destination="Z2a-Jg-Nnc" id="16t-n3-1Gr"/>
                         <outlet property="button9" destination="1Uv-qj-9Yh" id="ZtJ-c0-Lza"/>
                         <outlet property="finalMessageLabel" destination="61S-au-ctu" id="amP-ba-XUu"/>
-                        <segue destination="ne2-IJ-2ST" kind="show" identifier="toQuestion" id="XtT-om-OAG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="135" y="138.38028169014083"/>
         </scene>
-        <!--Question View Controller-->
-        <scene sceneID="Lw1-6d-62q">
-            <objects>
-                <viewController id="ne2-IJ-2ST" customClass="QuestionViewController" customModule="Aguri_birthday" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yD1-Zd-jlx"/>
-                        <viewControllerLayoutGuide type="bottom" id="J9P-Dt-1rL"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="G1Q-Jx-jZK">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sea2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="OEn-gt-Ung">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KQw-KL-fDG">
-                                <rect key="frame" x="0.0" y="20" width="320" height="250"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xl0-il-FeN">
-                                <rect key="frame" x="35" y="302" width="174" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egI-gg-2qQ">
-                                <rect key="frame" x="255" y="302" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Go">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="didTapAnswerButton" destination="ne2-IJ-2ST" eventType="touchUpInside" id="3Bz-iv-pXe"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFP-0X-AqT">
-                                <rect key="frame" x="22" y="506" width="34" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="back">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="didTapBackButton" destination="ne2-IJ-2ST" eventType="touchUpInside" id="IOL-wB-4PQ"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="answerTextField" destination="xl0-il-FeN" id="chh-TI-xqU"/>
-                        <outlet property="questionImageView" destination="KQw-KL-fDG" id="c1V-zB-zJm"/>
-                        <segue destination="SYZ-Aw-QcG" kind="show" identifier="toPiece" id="gEV-0o-art"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5Vb-Gr-fge" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="933.75" y="137.32394366197184"/>
-        </scene>
-        <!--Piece View Controller-->
-        <scene sceneID="EJJ-Nn-mwo">
-            <objects>
-                <viewController id="SYZ-Aw-QcG" customClass="PieceViewController" customModule="Aguri_birthday" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jgn-aT-U6a"/>
-                        <viewControllerLayoutGuide type="bottom" id="CDQ-5i-YKF"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="oRY-Dc-cya">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IFa-FD-3GO">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W32-a1-MQi">
-                                <rect key="frame" x="40" y="77" width="240" height="307"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pjL-Sz-lqY">
-                                <rect key="frame" x="137" y="454" width="46" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Top"/>
-                                <connections>
-                                    <action selector="didTapTopButton" destination="SYZ-Aw-QcG" eventType="touchUpInside" id="dL9-2s-ysG"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="backgroundImageView" destination="IFa-FD-3GO" id="o7p-Px-XrP"/>
-                        <outlet property="pieceImageView" destination="W32-a1-MQi" id="AL7-I9-fpo"/>
-                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="toTop" modalTransitionStyle="flipHorizontal" id="Ufy-wb-mii"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5Nt-MZ-fbg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1666.875" y="136.26760563380282"/>
-        </scene>
     </scenes>
     <resources>
         <image name="logo.png" width="781" height="180"/>
         <image name="sea.jpg" width="1920" height="1080"/>
-        <image name="sea2.jpeg" width="225" height="225"/>
     </resources>
 </document>

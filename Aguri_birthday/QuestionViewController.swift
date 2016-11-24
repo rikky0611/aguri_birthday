@@ -28,7 +28,10 @@ class QuestionViewController: UIViewController {
                 let alert = UIAlertController(title:"Congrats!", message: "正解です！", preferredStyle: UIAlertControllerStyle.alert)
                 alert.addAction(UIAlertAction(title:"OK", style: .default, handler:{
                     UIAlertAction -> Void in
-                    self.performSegue(withIdentifier: "toPiece", sender: self)
+                    let pieceViewController = PieceViewController.instantiate()
+                    pieceViewController.index = self.index
+                    self.present(pieceViewController, animated: true, completion: nil)
+                    
                 }))
                 self.present(alert, animated: true, completion:nil)
             } else {
@@ -45,20 +48,19 @@ class QuestionViewController: UIViewController {
     @IBAction func didTapBackButton() {
         self.dismiss(animated: true, completion: nil)
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let pieceViewController = segue.destination as! PieceViewController
-        pieceViewController.index = self.index
-    }
 }
 
 extension QuestionViewController: UITextFieldDelegate {
     public func textFieldShouldReturn(_ textField: UITextField) -> Bool{
         answerTextField.resignFirstResponder()
         return true
+    }
+}
+
+extension QuestionViewController: StoryboardInstantiable {
+    
+    static var storyboardName: String {
+        
+        return String(describing: self)
     }
 }

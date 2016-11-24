@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VZg-9k-OmZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Question View Controller-->
+        <scene sceneID="yoe-cD-q9Z">
+            <objects>
+                <viewController id="VZg-9k-OmZ" customClass="QuestionViewController" customModule="Aguri_birthday" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oIY-DK-KVP"/>
+                        <viewControllerLayoutGuide type="bottom" id="3U8-Bt-maX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dao-v3-hl5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sea2.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="dzp-E9-G3A">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Bv-Pf-QOW">
+                                <rect key="frame" x="0.0" y="20" width="375" height="274"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="274" id="auv-Zz-7ZS"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n68-Pm-B2O">
+                                <rect key="frame" x="16" y="617" width="34" height="30"/>
+                                <state key="normal" title="back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Ob-sl-JLH">
+                                <rect key="frame" x="31" y="318" width="174" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OO4-68-GhS">
+                                <rect key="frame" x="265" y="318" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="9fi-u9-04W"/>
+                                    <constraint firstAttribute="height" constant="30" id="joO-6Q-v2V"/>
+                                </constraints>
+                                <state key="normal" title="Go">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dzp-E9-G3A" firstAttribute="top" secondItem="dao-v3-hl5" secondAttribute="top" id="10d-bj-Xbc"/>
+                            <constraint firstAttribute="trailing" secondItem="6Bv-Pf-QOW" secondAttribute="trailing" id="4P1-75-Isq"/>
+                            <constraint firstItem="OO4-68-GhS" firstAttribute="leading" secondItem="8Ob-sl-JLH" secondAttribute="trailing" constant="60" id="7xZ-fa-Mo2"/>
+                            <constraint firstItem="n68-Pm-B2O" firstAttribute="bottom" secondItem="dzp-E9-G3A" secondAttribute="bottom" constant="-20" id="IyG-L6-AWw"/>
+                            <constraint firstAttribute="trailing" secondItem="dzp-E9-G3A" secondAttribute="trailing" id="TP3-nN-jWX"/>
+                            <constraint firstItem="dzp-E9-G3A" firstAttribute="leading" secondItem="8Ob-sl-JLH" secondAttribute="trailing" constant="-205" id="VWU-R1-TkZ"/>
+                            <constraint firstItem="dzp-E9-G3A" firstAttribute="leading" secondItem="dao-v3-hl5" secondAttribute="leading" id="cfV-PV-d4Z"/>
+                            <constraint firstItem="dzp-E9-G3A" firstAttribute="leading" secondItem="n68-Pm-B2O" secondAttribute="trailing" constant="-50" id="dgE-Wn-0LJ"/>
+                            <constraint firstItem="8Ob-sl-JLH" firstAttribute="centerY" secondItem="OO4-68-GhS" secondAttribute="centerY" id="gMd-Iq-QiU"/>
+                            <constraint firstItem="3U8-Bt-maX" firstAttribute="top" secondItem="dzp-E9-G3A" secondAttribute="bottom" id="gT2-jL-eKc"/>
+                            <constraint firstItem="8Ob-sl-JLH" firstAttribute="top" secondItem="6Bv-Pf-QOW" secondAttribute="bottom" constant="24" id="h0Y-ne-xns"/>
+                            <constraint firstItem="OO4-68-GhS" firstAttribute="leading" secondItem="dzp-E9-G3A" secondAttribute="trailing" constant="-110" id="hMt-6U-8MM"/>
+                            <constraint firstItem="6Bv-Pf-QOW" firstAttribute="leading" secondItem="dao-v3-hl5" secondAttribute="leading" id="iBl-mt-IjV"/>
+                            <constraint firstItem="dzp-E9-G3A" firstAttribute="top" secondItem="6Bv-Pf-QOW" secondAttribute="bottom" constant="-294" id="kgx-UW-ZHR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answerTextField" destination="8Ob-sl-JLH" id="DeI-Fg-rdk"/>
+                        <outlet property="questionImageView" destination="6Bv-Pf-QOW" id="Q3J-mK-X8D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p2u-UE-vNh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="239.73013493253376"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sea2.jpeg" width="225" height="225"/>
+    </resources>
+</document>
